@@ -2,11 +2,17 @@ CREATE DATABASE productsdb;
 USE productsdb;
 CREATE TABLE users
 (
-    id INT PRIMARY KEY AUTO_INCREMENT
+    id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    name varchar(100) UNIQUE
 );
+INSERT users(name) 
+VALUES
+('Ivanov'),
+('Petrov'),
+('Sidorov');
 CREATE TABLE products
 (
-    id INT PRIMARY KEY AUTO_INCREMENT,
+    id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
     name VARCHAR(100) UNIQUE,
     code INT UNIQUE,
     price FLOAT,
