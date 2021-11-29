@@ -3,11 +3,10 @@ USE productsdb;
 CREATE TABLE users
 (
     id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
-    name varchar(100) UNIQUE
+	name VARCHAR(100) UNIQUE
 );
-INSERT users(name) 
-VALUES
-('Ivanov'),
+INSERT INTO users (name)
+VALUES ('Ivanov'),
 ('Petrov'),
 ('Sidorov');
 CREATE TABLE products
@@ -18,7 +17,7 @@ CREATE TABLE products
     price FLOAT,
     preview_text TEXT(30),
     detail_text TEXT,
-    user_id INT ,
+    user_id INT NOT NULL,
     FOREIGN KEY (user_id)  REFERENCES users(id) ON DELETE CASCADE
 );
 
