@@ -136,6 +136,7 @@ background-size: 100%;
     line-height: 120%;
     text-transform: uppercase;
     color: #000000;
+    text-align: center;
 }
 .services_content__form {
 }
@@ -155,4 +156,33 @@ background-size: 100%;
 }
 .fourth {
     padding: 0 0 0 1136px;
+}
+.services_content__form-block__info {
+    padding-left: 120px;
+}
+.services_content__form-block__info-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.services_content__form-block__info-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #000000;
+}
+.services_content__form-block__info-more>a{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #000000;
+    border: 1px solid #DC911B;
+    border-radius: 10px;
+    padding: 10px;
+    float: right;
 }
