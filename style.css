@@ -118,4 +118,41 @@ background-size: 100%;
     background: url(images/photo.png);
     margin-right: 130px;
 }
-
+.container_services {
+    width: 100%;
+    box-sizing: border-box;
+}
+.services_content {
+    min-height: 1715px;
+    box-sizing: border-box;
+    background: url(images/line_1.png) no-repeat;
+    background-position: 2.5px 73px;
+}
+.services_title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #000000;
+}
+.services_content__form {
+}
+.services_content__form-block {
+    max-width: 1096px;
+    display: flex;
+}
+.first {
+    padding: 3px 0 90px 360px;
+}
+.second {
+    flex-direction: row-reverse;
+    padding: 0 0 100px 477px;
+}
+.third {
+    padding: 0 0 106px 367px;
+}
+.fourth {
+    padding: 0 0 0 1136px;
+}
