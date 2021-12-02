@@ -47,7 +47,7 @@ a {
 	box-sizing: border-box;
 }
 .banner_header__logo img {
-background-size: 100%;
+    background-size: 100%;
     width: 192px;
     height: 75px;
 }
@@ -123,7 +123,7 @@ background-size: 100%;
     box-sizing: border-box;
 }
 .services_content {
-    min-height: 1715px;
+    min-height: 1780px;
     box-sizing: border-box;
     background: url(images/line_1.png) no-repeat;
     background-position: 2.5px 73px;
@@ -138,10 +138,8 @@ background-size: 100%;
     color: #000000;
     text-align: center;
 }
-.services_content__form {
-}
 .services_content__form-block {
-    max-width: 1096px;
+    width: 1096px;
     display: flex;
 }
 .first {
@@ -155,7 +153,8 @@ background-size: 100%;
     padding: 0 0 106px 367px;
 }
 .fourth {
-    padding: 0 0 0 1136px;
+    flex-direction: row-reverse;
+    padding: 0 0 0 485px;
 }
 .services_content__form-block__info {
     padding-left: 120px;
@@ -222,4 +221,72 @@ background-size: 100%;
     text-transform: uppercase;
     color: #FFFFFF;
     float: right;
+}
+
+.projects_title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.projects_content {
+    display: flex;
+    justify-content: center;
+}
+.projects_content__form-block {
+    display: flex;
+}
+.projects_content__form-block:first-child {
+    padding-bottom: 50px;
+}
+.projects_content__form-block__info {
+    width: 100%;
+	box-sizing: border-box;
+}
+.projects_content__form-block__info img {
+	width: 556px;
+    height: 312px;
+    position: absolute;
+    padding-left: 130px;
+}
+.projects_content__form-block__info-title {
+	position: relative;
+	font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #000000;
+    padding-top: 80px;
+}
+.projects_content__form-block__info-description {
+	position: relative;
+	font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #000000;
+    padding: 155px 0 0 90px;
+}
+.projects_content__form-block__info-more {
+    background: #DC911B;
+    padding: 10px;
+    float: right;
+}
+.projects_content__link img{
+    margin: 20px -140px 0 0;
+    float: right;
+}
+.projects_content__link a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #000000;
+    padding: 20px 300px 0 0;
+    float: right;
+
 }
