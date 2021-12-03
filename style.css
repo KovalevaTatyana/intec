@@ -33,7 +33,7 @@ a {
     text-decoration: none;
 }
 .container_banner {
-    width: 100%;
+    max-width: 1920px;
     min-height: 687px;
     box-sizing: border-box;
     background: #ffdea8;
@@ -189,6 +189,7 @@ a {
     display: flex;
     justify-content: center;
     background: #3E3E3D;
+    max-width: 1920px;
 }
 
 .reviews__info-title {
@@ -222,7 +223,11 @@ a {
     color: #FFFFFF;
     float: right;
 }
-
+.container_projects{
+    max-width: 1920px;
+    min-height: 1069px;
+    box-sizing: border-box;
+}
 .projects_title {
     font-family: Roboto;
     font-style: normal;
@@ -288,16 +293,16 @@ a {
     color: #000000;
     padding: 20px 300px 0 0;
     float: right;
-
 }
 .container_news {
     margin-top: 100px;
     display: flex;
+    max-width: 1920px;
+    min-height: 471px;
 }
 .news__block-first {
     background: #EDEEEF;
     width: 944px;
-    height: 471px;
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -355,4 +360,79 @@ a {
  {
     padding-top: 70px;
     padding-right: 160px;
+}
+.news__block-text-more {
+    background: #DC911B;
+    padding: 10px;
+}
+.container_questions {
+    max-width: 1920px;
+    height: 300px;
+    margin-top: 200px;
+    background: url(images/line_2.png) no-repeat;
+    background-position: 2.5px 73px;
+}
+.questions_content {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.questions_content img{
+    width: 123px;
+    height: 285px;
+}
+.questions_content-form {
+    background: #FFE0B0;
+    position: relative;
+    width: 617px;
+    height: 197px;
+    text-align: center;
+}
+..questions_content-form-title {
+    margin-top: 28px;
+}
+.questions_content-form-title span {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.questions_content-form-text {
+    margin-top: 11px;
+}
+.questions_content-form-text span {
+    margin-top: 11px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #000000;
+}
+.questions_content-form-namephone {
+    display: flex;
+    justify-content: space-around;
+}
+.questions_content-form-namephone input {
+    margin-top: 30px;
+    background: #FFE0B0;
+    border: none;
+    border-bottom: 1px solid #DC911B;
+}
+.questions_content-form-namephone input::placeholder {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: #3E3E3D;
+}
+.questions_content-btn button{
+    position: relative;
+    margin-top: 40px;
+    border: 1px solid #DC911B;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 11px 26px;
 }
