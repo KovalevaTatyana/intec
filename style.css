@@ -185,14 +185,18 @@ a {
     padding: 10px;
     float: right;
 }
-.container_reviews {
+.container_reviews,
+.container_certificates
+ {
     display: flex;
     justify-content: center;
     background: #3E3E3D;
     max-width: 1920px;
 }
 
-.reviews__info-title {
+.reviews__info-title,
+ .certificates__info-title
+ {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
@@ -201,7 +205,9 @@ a {
     color: #FFFFFF;
     text-align: center;
 }
-.reviews__foto img{
+.reviews__foto img,
+.certificates__foto img
+{
     width: 450px;
     padding-top: 35px;
 }
@@ -214,7 +220,9 @@ a {
     background: #DC911B;
     padding: 10px;
 }
-.reviews__info-btn a{
+.reviews__info-btn a,
+.certificates__info-btn a
+{
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
@@ -223,6 +231,7 @@ a {
     color: #FFFFFF;
     float: right;
 }
+
 .container_projects{
     max-width: 1920px;
     min-height: 1069px;
@@ -451,6 +460,7 @@ a {
 }
 .articles__block {
     display: flex;
+    justify-content: space-around;
 }
 .articles__block-title h6{
     font-family: Montserrat;
@@ -475,4 +485,11 @@ a {
     font-size: 12px;
     line-height: 21px;
     color: #000000;
+    width: 245px;
+    height: 63px;
+}
+
+.container_certificates {
+    max-width: 1920px;
+    margin-top: 172px;
 }
