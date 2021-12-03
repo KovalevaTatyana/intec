@@ -436,3 +436,43 @@ a {
     border-radius: 5px;
     padding: 11px 26px;
 }
+
+.container_articles {
+    max-width: 1920px;
+}
+.articles_title h6{
+    line-height: 120%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.articles__block {
+    display: flex;
+}
+.articles__block-title h6{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+}
+.articles__block-date {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 21px;
+    color: #C6C6C6;
+}
+.articles__block-text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 21px;
+    color: #000000;
+}
