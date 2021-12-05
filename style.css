@@ -493,3 +493,35 @@ a {
     max-width: 1920px;
     margin-top: 172px;
 }
+
+.container_clients {
+    max-width: 1920px;
+}
+.clients-title h6{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #000000;
+    text-align: center;
+}
+.clients-table {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 125px;
+	margin-bottom: 125px;
+	width: 1200px;
+    height: 360px;
+    margin: auto;
+}
+.clients-table-logo {
+	width: 25%;
+	text-align: center;
+	line-height: 46px;
+	letter-spacing: .02em;
+	border: 1px solid #F2F2F2;
+	box-sizing: border-box;
+	padding: 40px 0;
+}
